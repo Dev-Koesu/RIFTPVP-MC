@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hosting Minecraft | Rift-Hosting</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="icon" href="img/icons/icon.png">
+</head>
+<body>
+<header class="header"><div class="container">
+<a href="index.html" class="logo"><img src="img/logo.png" alt="Rift" onerror="this.style.display='none'">RIFT-<span>HOSTING</span></a>
+<nav class="nav">
+<a href="index.html">Inicio</a><a href="hosting.html">Hosting</a><a href="minecraft.html">Minecraft</a><a href="vps.html">VPS</a><a href="dedicados.html">Dedicados</a><a href="estado.html">Estado</a><a href="soporte.html">Soporte</a>
+</nav><div style="display:flex;gap:12px"><a href="login.html" class="btn btn-ghost">Login</a><a href="panel.html" class="btn btn-primary">Panel</a></div>
+</div></header>
+<main class="container" style="padding:48px 24px">
+<h1 style="font-size:48px;font-weight:900">Planes de <span style="color:var(--primary)">Minecraft</span></h1>
+<p style="color:var(--muted);margin:16px 0 32px">Pterodactyl, Java 8-21, MySQL gratis, subdominio rift.gg. Soporta Vanilla, Paper, Forge, Fabric.</p>
+<div style="display:flex;gap:12px;margin-bottom:32px"><button onclick="setBilling('monthly')" data-bill="monthly" class="btn btn-primary">Mensual</button><button onclick="setBilling('yearly')" data-bill="yearly" class="btn btn-ghost">Trimestral -15% OFF</button></div>
+<div class="grid4">
+<div class="card"><h3>Dirt</h3><div class="price"><span class="price-amount" data-monthly="3.99">$3.99</span><small>/mes</small></div><ul style="margin:16px 0;color:var(--muted);font-size:14px;line-height:2;list-style:none"><li>✔ 2GB RAM DDR5</li><li>✔ 10 Slots</li><li>✔ 15GB NVMe</li><li>✔ 1 DB MySQL</li></ul><a href="register.html" class="btn btn-ghost" style="width:100%;justify-content:center">Comprar</a></div>
+<div class="card" style="border-color:var(--primary);transform:scale(1.03)"><span class="badge">POPULAR</span><h3 style="margin-top:8px">Stone</h3><div class="price"><span class="price-amount" data-monthly="7.99">$7.99</span><small>/mes</small></div><ul style="margin:16px 0;color:var(--muted);font-size:14px;line-height:2;list-style:none"><li>✔ 4GB RAM DDR5</li><li>✔ 20 Slots</li><li>✔ 35GB NVMe</li><li>✔ 3 DB MySQL</li><li>✔ Modpacks</li></ul><a href="register.html" class="btn btn-primary" style="width:100%;justify-content:center">Comprar</a></div>
+<div class="card"><h3>Iron</h3><div class="price"><span class="price-amount" data-monthly="12.99">$12.99</span><small>/mes</small></div><ul style="margin:16px 0;color:var(--muted);font-size:14px;line-height:2;list-style:none"><li>✔ 6GB RAM DDR5</li><li>✔ ∞ Slots</li><li>✔ 60GB NVMe</li><li>✔ 5 DB MySQL</li></ul><a href="register.html" class="btn btn-ghost" style="width:100%;justify-content:center">Comprar</a></div>
+<div class="card"><h3>Netherite</h3><div class="price"><span class="price-amount" data-monthly="19.99">$19.99</span><small>/mes</small></div><ul style="margin:16px 0;color:var(--muted);font-size:14px;line-height:2;list-style:none"><li>✔ 10GB RAM DDR5</li><li>✔ ∞ Slots</li><li>✔ 120GB NVMe</li><li>✔ ∞ DB</li><li>✔ Soporte Prioritario</li></ul><a href="register.html" class="btn btn-ghost" style="width:100%;justify-content:center">Comprar</a></div>
+</div>
+<script src="js/slider.js"></script>
+</main>
+<footer style="border-top:1px solid var(--border);padding:40px 0;margin-top:80px;text-align:center;color:var(--muted)">
+<p>© <span data-year></span> Rift-Hosting • Hecho con ❤️ para gamers • discord.gg/rift-hosting • Santa Cruz, BO</p>
+</footer>
+<script src="js/app.js"></script><script src="js/theme.js"></script>
+</body></html>

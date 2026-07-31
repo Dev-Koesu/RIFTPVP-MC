@@ -1,0 +1,4 @@
+.dashboard{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.sidebar{background:#0e0e14;border-right:1px solid var(--border);padding:24px}
+.main{padding:32px;background:var(--bg)}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px}

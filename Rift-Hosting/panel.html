@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Panel | Rift-Hosting</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="icon" href="img/icons/icon.png">
+</head>
+<body>
+<header class="header"><div class="container">
+<a href="index.html" class="logo"><img src="img/logo.png" alt="Rift" onerror="this.style.display='none'">RIFT-<span>HOSTING</span></a>
+<nav class="nav">
+<a href="index.html">Inicio</a><a href="hosting.html">Hosting</a><a href="minecraft.html">Minecraft</a><a href="vps.html">VPS</a><a href="dedicados.html">Dedicados</a><a href="estado.html">Estado</a><a href="soporte.html">Soporte</a>
+</nav><div style="display:flex;gap:12px"><a href="login.html" class="btn btn-ghost">Login</a><a href="panel.html" class="btn btn-primary">Panel</a></div>
+</div></header>
+<main class="container" style="padding:48px 24px">
+<h1>Panel de Control</h1>
+<div style="display:grid;grid-template-columns:260px 1fr;gap:24px;margin-top:24px">
+<div class="card"><h3>rift-1.rift.gg</h3><p style="font-size:12px;color:var(--muted)">Online • 12ms</p><div style="margin-top:16px;background:var(--bg);padding:16px;border-radius:8px;font-family:monospace;font-size:13px">CPU: 24%<br>RAM: 3.2 / 6GB<br>Jugadores: 8/20</div><div style="display:grid;gap:8px;margin-top:16px"><button class="btn btn-primary">Reiniciar</button><button class="btn btn-ghost">Detener</button></div></div>
+<div><div class="terminal"><div class="term-head"><div class="dot r"></div><div class="dot y"></div><div class="dot g"></div></div><div class="term-body" id="console">Consola en vivo...<br>[14:32] Servidor iniciado correctamente<br>[14:33] > say Hola mundo desde Rift-Hosting</div></div>
+<div class="grid3" style="margin-top:24px"><div class="card"><h3>📁 Archivos</h3><p style="color:var(--muted);font-size:13px">Gestor SFTP + editor web</p></div><div class="card"><h3>🗄️ Bases de Datos</h3><p style="color:var(--muted);font-size:13px">MySQL gratis</p></div><div class="card"><h3>💾 Backups</h3><p style="color:var(--muted);font-size:13px">Cada 6 horas</p></div></div>
+</div></div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:40px 0;margin-top:80px;text-align:center;color:var(--muted)">
+<p>© <span data-year></span> Rift-Hosting • Hecho con ❤️ para gamers • discord.gg/rift-hosting • Santa Cruz, BO</p>
+</footer>
+<script src="js/app.js"></script><script src="js/theme.js"></script>
+</body></html>
